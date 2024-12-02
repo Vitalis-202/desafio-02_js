@@ -1,5 +1,5 @@
 
-# Desafío #01 - Introducción a Javascript
+# Desafío #02 - Introducción a Javascript
 
 ## Desafio Latam - FullStack Javascript G86
 
