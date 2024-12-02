@@ -29,3 +29,33 @@ btn_ej2.addEventListener('click',()=>{
     }
     suma = 0
 })
+//Ejercicio #03
+let select_1 = document.querySelector('#select_1')
+let select_2 = document.querySelector('#select_2')
+let select_3 = document.querySelector('#select_3')
+const btn_ej3 = document.querySelector('#btn_ej3')
+let resultado_ej3 = document.querySelector('#resultado_ej3')
+let seleccionado_1 = select_1.value
+let seleccionado_2 = select_2.value
+let seleccionado_3 = select_3.value
+
+btn_ej3.addEventListener('click',()=>{
+    
+    select_1 = document.querySelector('#select_1')
+    select_2 = document.querySelector('#select_2')
+    select_3 = document.querySelector('#select_3')
+    seleccionado_1 = select_1.value
+    seleccionado_2 = select_2.value
+    seleccionado_3 = select_3.value
+
+
+    console.log(seleccionado_1 + seleccionado_2 + seleccionado_3)
+    if ( seleccionado_1 == 9 && seleccionado_2 == 1 && seleccionado_3 == 1) {
+        resultado_ej3.innerHTML = 'Password 1 correcto'  
+    } else if ( seleccionado_1 == 7 && seleccionado_2 == 1 && seleccionado_3 == 4){
+        resultado_ej3.innerHTML = 'Password 2 correcto'
+    } else {
+        resultado_ej3.innerHTML = 'Password incorrecto'  
+    }
+    suma = 0
+})
